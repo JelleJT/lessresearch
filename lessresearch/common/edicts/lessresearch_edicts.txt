@@ -1,0 +1,237 @@
+country_edict = {
+	name = "10_Less_Research_Per_Month"
+	modifier = 	{
+		country_engineering_tech_research_speed = -0.10
+		country_physics_tech_research_speed = -0.10
+		country_society_tech_research_speed	= -0.10
+	}
+	
+	influence_cost = 0
+			
+	allow = {
+		NOR = 	{
+			has_country_edict = 20_Less_Research_Per_Month
+			has_country_edict = 30_Less_Research_Per_Month
+			has_country_edict = 40_Less_Research_Per_Month
+			has_country_edict = 50_Less_Research_Per_Month
+			has_country_edict = 60_Less_Research_Per_Month
+			has_country_edict = 70_Less_Research_Per_Month
+		}
+	}
+				
+	ai_weight = {
+		weight = 0
+	}
+				
+	behavior = {
+		modifier = 	{
+			country_engineering_tech_research_speed = -0.10
+			country_physics_tech_research_speed = -0.10
+			country_society_tech_research_speed	= -0.10
+		}
+	}
+}
+
+country_edict = {
+	name = "20_Less_Research_Per_Month"
+	modifier = 	{
+		country_engineering_tech_research_speed = -0.20
+		country_physics_tech_research_speed = -0.20
+		country_society_tech_research_speed	= -0.20
+	}
+				
+	influence_cost = 0
+		
+	allow = {
+		NOR = 	{
+			has_country_edict = 10_Less_Research_Per_Month
+			has_country_edict = 30_Less_Research_Per_Month
+			has_country_edict = 40_Less_Research_Per_Month
+			has_country_edict = 50_Less_Research_Per_Month
+			has_country_edict = 60_Less_Research_Per_Month
+			has_country_edict = 70_Less_Research_Per_Month
+		}
+	}
+				
+	ai_weight = {
+		weight = 0
+	}
+				
+	behavior = {
+		modifier = 	{
+			country_engineering_tech_research_speed = -0.20
+			country_physics_tech_research_speed = -0.20
+			country_society_tech_research_speed	= -0.20
+		}
+	}
+}
+
+country_edict = {
+	name = "30_Less_Research_Per_Month"
+	modifier = 	{
+		country_engineering_tech_research_speed = -0.30
+		country_physics_tech_research_speed = -0.30
+		country_society_tech_research_speed	= -0.30
+	}
+				
+	influence_cost = 0
+				
+	allow = {
+		NOR = 	{
+			has_country_edict = 10_Less_Research_Per_Month
+			has_country_edict = 20_Less_Research_Per_Month
+			has_country_edict = 40_Less_Research_Per_Month
+			has_country_edict = 50_Less_Research_Per_Month
+			has_country_edict = 60_Less_Research_Per_Month
+			has_country_edict = 70_Less_Research_Per_Month
+		}
+	}
+				
+	ai_weight = {
+		weight = 0
+	}
+	
+	behavior = {
+		modifier = 	{
+			country_engineering_tech_research_speed = -0.30
+			country_physics_tech_research_speed = -0.30
+			country_society_tech_research_speed	= -0.30
+		}
+	}
+}
+
+country_edict = {
+	name = "40_Less_Research_Per_Month"
+	modifier = 	{
+		country_engineering_tech_research_speed = -0.40
+		country_physics_tech_research_speed = -0.40
+		country_society_tech_research_speed	= -0.40
+	}
+	
+	influence_cost = 0
+	
+	allow = {
+		NOR = 	{
+			has_country_edict = 10_Less_Research_Per_Month
+			has_country_edict = 20_Less_Research_Per_Month
+			has_country_edict = 30_Less_Research_Per_Month
+			has_country_edict = 50_Less_Research_Per_Month
+			has_country_edict = 60_Less_Research_Per_Month
+			has_country_edict = 70_Less_Research_Per_Month
+		}
+	}
+				
+	ai_weight = {
+		weight = 0
+	}
+	
+	behavior = {
+		modifier = 	{
+			country_engineering_tech_research_speed = -0.40
+			country_physics_tech_research_speed = -0.40
+			country_society_tech_research_speed	= -0.40
+		}
+	}
+}
+
+country_edict = {
+	name = "50_Less_Research_Per_Month"
+	modifier = 	{
+		country_engineering_tech_research_speed = -0.50
+		country_physics_tech_research_speed = -0.50
+		country_society_tech_research_speed	= -0.50
+	}
+				
+	influence_cost = 0
+				
+	allow = {
+		NOR = 	{
+			has_country_edict = 10_Less_Research_Per_Month
+			has_country_edict = 20_Less_Research_Per_Month
+			has_country_edict = 30_Less_Research_Per_Month
+			has_country_edict = 40_Less_Research_Per_Month
+			has_country_edict = 60_Less_Research_Per_Month
+			has_country_edict = 70_Less_Research_Per_Month
+		}
+	}
+				
+	ai_weight = {
+		weight = 0
+	}
+	
+	behavior = {
+		modifier = 	{
+			country_engineering_tech_research_speed = -0.50
+			country_physics_tech_research_speed = -0.50
+			country_society_tech_research_speed	= -0.50
+		}
+	}
+}
+				
+country_edict = {
+	name = "60_Less_Research_Per_Month"
+	modifier = 	{
+		country_engineering_tech_research_speed = -0.60
+		country_physics_tech_research_speed = -0.60
+		country_society_tech_research_speed	= -0.60
+	}
+		
+	influence_cost = 0
+		
+	allow = {
+		NOR = 	{
+			has_country_edict = 10_Less_Research_Per_Month
+			has_country_edict = 20_Less_Research_Per_Month
+			has_country_edict = 30_Less_Research_Per_Month
+			has_country_edict = 40_Less_Research_Per_Month
+			has_country_edict = 50_Less_Research_Per_Month
+			has_country_edict = 70_Less_Research_Per_Month
+		}
+	}
+				
+	ai_weight = {
+		weight = 0
+	}
+	
+	behavior = {
+		modifier = 	{
+			country_engineering_tech_research_speed = -0.60
+			country_physics_tech_research_speed = -0.60
+			country_society_tech_research_speed	= -0.60
+		}
+	}
+}
+
+country_edict = {
+	name = "70_Less_Research_Per_Month"
+	modifier = 	{
+		country_engineering_tech_research_speed = -0.70
+		country_physics_tech_research_speed = -0.70
+		country_society_tech_research_speed	= -0.70
+	}
+	
+	influence_cost = 0
+	
+	allow = {
+		NOR = 	{
+			has_country_edict = 10_Less_Research_Per_Month
+			has_country_edict = 20_Less_Research_Per_Month
+			has_country_edict = 30_Less_Research_Per_Month
+			has_country_edict = 40_Less_Research_Per_Month
+			has_country_edict = 50_Less_Research_Per_Month
+			has_country_edict = 60_Less_Research_Per_Month
+		}
+	}
+
+	ai_weight = {
+		weight = 0
+	}
+	
+	behavior = {
+		modifier = 	{
+			country_engineering_tech_research_speed = -0.70
+			country_physics_tech_research_speed = -0.70
+			country_society_tech_research_speed	= -0.70
+		}
+	}
+}
